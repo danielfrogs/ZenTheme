@@ -24,3 +24,15 @@
 .scroller.channel-members{
 	background: #7ab97a
 }
+
+/*Background colour for where the message text is inputted (centre-bottom)*/
+.channel-textarea-inner{
+	background: #4ea24e
+}
+
+/*Text field background colour, border and text padding setting (centre-bottom)*/
+.channel-textarea-inner textarea{
+	background: #7ab97a;
+	border: 1px solid #ffffff !important;
+	padding-left: 5px
+}
