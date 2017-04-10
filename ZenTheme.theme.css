@@ -34,5 +34,29 @@
 .channel-textarea-inner textarea{
 	background: #7ab97a;
 	border: 1px solid #ffffff !important;
-	padding-left: 5px
+	padding-left: 5px;
+	color: #ffffff
 }
+/*Colour of the messages in text channels (centre)*/
+.message-group .comment .markup{
+	color: #228b22;
+	font-size: 16px	
+}
+
+/*Colour of the text before the title of the text channel (centre-top)*/
+.chat>.title-wrap>.title .channel-name:before{
+	color: #ffffff
+}
+
+/*Colour of the text channel name (centre-top)*/
+.chat>.title-wrap>.title .channel-name{
+	color: #ffffff
+}
+
+/*Colour and size of the text displaying roles (right)*/
+.channel-members h2{
+	color: #ffffff;
+	font-size: 18px
+}
+
+
