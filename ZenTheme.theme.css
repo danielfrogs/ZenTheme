@@ -1,0 +1,26 @@
+//META{"name":"ZenTheme","description":"ZenTheme is a BetterDiscord theme made by Daniel Behan also known as danielfrogs.","author":"danielfrogs","version":"1.0"}*//
+
+/*Background colour of where the Discord server name is displayed (top-left)*/
+.guild-header header{
+	background: #228b22 
+}
+
+/*Background colour behind a Discord server's text/voice channel list (centre-left)*/
+.guild-channels{
+	background: #7ab97a
+}
+
+/*Background colour behind the title of a text channel next to server name (top-centre)*/
+.title-wrap{
+	background: #4ea24e
+}
+
+/*Background colour of the main body of where the messages are displayed (centre)*/
+.chat .content{
+	background: #d2e7d2
+}
+
+/*Background colour behind the members within a Discord server (centre-right)*/
+.scroller.channel-members{
+	background: #7ab97a
+}
