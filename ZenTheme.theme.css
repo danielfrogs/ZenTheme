@@ -2,32 +2,32 @@
 
 /*Background colour of where the Discord server name is displayed (top-left)*/
 .guild-header header{
-	background: #228b22 
+	background: #228b22;
 }
 
 /*Background colour behind a Discord server's text/voice channel list (centre-left)*/
 .guild-channels{
-	background: #7ab97a
+	background: #7ab97a;
 }
 
 /*Background colour behind the title of a text channel next to server name (top-centre)*/
 .title-wrap{
-	background: #4ea24e
+	background: #4ea24e;
 }
 
 /*Background colour of the main body of where the messages are displayed (centre)*/
 .chat .content{
-	background: #d2e7d2
+	background: #d2e7d2;
 }
 
 /*Background colour behind the members within a Discord server (centre-right)*/
 .scroller.channel-members{
-	background: #7ab97a
+	background: #7ab97a;
 }
 
 /*Background colour for where the message text is inputted (centre-bottom)*/
 .channel-textarea-inner{
-	background: #4ea24e
+	background: #4ea24e;
 }
 
 /*Text field background colour, border and text padding setting (centre-bottom)*/
@@ -35,33 +35,49 @@
 	background: #7ab97a;
 	border: 1px solid #ffffff !important;
 	padding-left: 5px;
-	color: #ffffff
+	color: #ffffff;
 }
 /*Colour of the messages in text channels (centre)*/
 .message-group .comment .markup{
-	color: #228b22;
-	font-size: 16px	
+	color: #282b30;
+	font-size: 16px;
 }
 
 /*Colour of the text before the title of the text channel (centre-top)*/
 .chat>.title-wrap>.title .channel-name:before{
-	color: #ffffff
+	color: #ffffff;
 }
 
 /*Colour of the text channel name (centre-top)*/
 .chat>.title-wrap>.title .channel-name{
-	color: #ffffff
+	color: #ffffff;
 }
 
 /*Colour and size of the text displaying roles (right)*/
 .channel-members h2{
 	color: #ffffff;
-	font-size: 18px
+	font-size: 18px;
+	text-shadow: 1px 1px 1px #282b30;
 }
 
 /*Colour of the timestamp of messages in a text channel (centre)*/
 .message-group h2 .timestamp{
-	color: #282b30
+	color: #282b30;
+}
+
+/*Background colour of the search bar in private text/voice channels (top-left)*/
+.private-channels .search-bar{
+	background-color: #228b22;
+}
+
+/*Background colour of the list of private text/voice channels (centre-left)*/
+.private-channels .scroller{
+	background-color: #7ab97a;
+}
+
+/*Background colour of the list of Discord servers (left)*/
+.guilds-wrapper .guilds{
+	background-color: #4ea24e;
 }
 
 
