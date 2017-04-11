@@ -59,4 +59,10 @@
 	font-size: 18px
 }
 
+/*Colour of the timestamp of messages in a text channel (centre)*/
+.message-group h2 .timestamp{
+	color: #282b30
+}
+
+
 
