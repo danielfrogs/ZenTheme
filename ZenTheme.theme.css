@@ -33,7 +33,8 @@
 /*Text field background colour, border and text padding setting (centre-bottom)*/
 .channel-textarea-inner textarea{
 	background: #7ab97a;
-	border: 1px solid #ffffff !important;
+	border: 3px solid #ffffff !important;
+	border-radius: 15px;
 	padding-left: 5px;
 	color: #ffffff;
 }
@@ -78,6 +79,11 @@
 /*Background colour of the list of Discord servers (left)*/
 .guilds-wrapper .guilds{
 	background-color: #4ea24e;
+}
+
+/*Background colour of the header behind the user's profile picture when username is clicked onto*/
+.user-popout .header{
+	background: #228b22
 }
 
 
